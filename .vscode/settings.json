@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "pkgc"
+    ],
+    "eslint.packageManager": "pnpm",
+    "files.associations": {
+        "rush.json": "jsonc"
+    }
+}

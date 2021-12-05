@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "alanzhang.open-symlink-source",
+    "unional.vscode-sort-package-json"
+  ]
+}

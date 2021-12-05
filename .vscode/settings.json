@@ -1,9 +1,32 @@
 {
-    "cSpell.words": [
-        "pkgc"
-    ],
-    "eslint.packageManager": "pnpm",
-    "files.associations": {
-        "rush.json": "jsonc"
-    }
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "cSpell.words": [
+    "pkgc"
+  ],
+  "eslint.packageManager": "pnpm",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.lintTask.options": "--cache --cache-location \"./.eslintcache\"",
+  "eslint.onIgnoredFiles": "off",
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.associations": {
+    "*.json": "jsonc",
+    "package.json": "json",
+  },
+
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
 }

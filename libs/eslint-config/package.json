@@ -1,24 +1,24 @@
 {
-    "name": "@pkgc/eslint-config",
-    "version": "1.0.0",
-    "description": "A TypeScript ESLint ruleset designed for large teams and projects",
-    "license": "MIT",
-    "private": true,
-    "scripts": {
-        "build": ""
-    },
-    "peerDependencies": {
-        "eslint": "^6.0.0 || ^7.0.0",
-        "typescript": ">=3.0.0"
-    },
-    "dependencies": {
-        "@rushstack/eslint-config": "2.4.5",
-        "eslint-config-prettier": "8.3.0",
-        "eslint-plugin-prettier": "4.0.0",
-        "prettier": "2.5.1"
-    },
-    "devDependencies": {
-        "eslint": "7.32.0",
-        "typescript": "4.5.2"
-    }
+  "name": "@pkgc/eslint-config",
+  "version": "1.0.0",
+  "description": "A TypeScript ESLint ruleset designed for large teams and projects",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": ""
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {
+    "@rushstack/eslint-config": "2.4.5",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "typescript": "4.5.2"
+  }
 }

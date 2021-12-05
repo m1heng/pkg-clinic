@@ -9,6 +9,11 @@
     "editor.formatOnPaste": false,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "cSpell.words": [
     "pkgc"
   ],

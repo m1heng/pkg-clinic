@@ -34,12 +34,14 @@ importers:
       eslint: 7.32.0
       eslint-config-prettier: 8.3.0
       eslint-plugin-prettier: 4.0.0
+      eslint-plugin-simple-import-sort: 7.0.0
       prettier: 2.5.1
       typescript: 4.5.2
     dependencies:
       '@rushstack/eslint-config': 2.4.5_eslint@7.32.0+typescript@4.5.2
       eslint-config-prettier: 8.3.0_eslint@7.32.0
       eslint-plugin-prettier: 4.0.0_6e6a25a49a944db0fa38418c3ba4bc86
+      eslint-plugin-simple-import-sort: 7.0.0_eslint@7.32.0
       prettier: 2.5.1
     devDependencies:
       eslint: 7.32.0
@@ -1444,6 +1446,14 @@ packages:
       semver: 6.3.0
       string.prototype.matchall: 4.0.6
     dev: true
+
+  /eslint-plugin-simple-import-sort/7.0.0_eslint@7.32.0:
+    resolution: {integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==}
+    peerDependencies:
+      eslint: '>=5.0.0'
+    dependencies:
+      eslint: 7.32.0
+    dev: false
 
   /eslint-plugin-tsdoc/0.2.14:
     resolution: {integrity: sha512-fJ3fnZRsdIoBZgzkQjv8vAj6NeeOoFkTfgosj6mKsFjX70QV256sA/wq+y/R2+OL4L8E79VVaVWrPeZnKNe8Ng==}

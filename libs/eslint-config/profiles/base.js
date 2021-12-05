@@ -1,10 +1,8 @@
 require('@rushstack/eslint-config/patch/modern-module-resolution');
 
 module.exports = {
-  extends: [
-    "prettier"
-  ],
-  plugins: ["prettier"],
+  extends: ['prettier'],
+  plugins: ['prettier', 'simple-import-sort'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -23,8 +21,10 @@ module.exports = {
         usePrettierrc: false,
       },
     ],
-    "arrow-body-style": "off",
-    "prefer-arrow-callback": "off"
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
+
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
   },
-  "ignorePatterns": [".eslintrc,cjs"]
 };
